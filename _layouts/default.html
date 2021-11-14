@@ -36,7 +36,7 @@
 
       <section>
         <div id="title">
-          <h1>{{ site.title | Vyond Remastered }}</h1>
+          <h1>{{ site.title | default: site.github.repository_name}}</h1>
           <p>{{ site.description | Vyond but remastered}</p>
           <hr>
           <span class="credits left">Project made by PurpleCreation and the vyond remastered theme
